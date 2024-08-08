@@ -1,0 +1,364 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-size:cover;
+}
+/* #sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f8f9fa; 
+    height: 87px;
+} */
+.navbar {
+    height: 87px;
+    position: sticky;
+    /* top:39px; */
+    /* margin-left:50px;
+    margin-right:50px; */
+}
+.navi {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50rem;
+    margin-left: 3rem;
+}
+.course-name {
+    padding-top: 10px;
+    height:40.8px;
+    width: 120.16px;
+    font-weight: 900;
+    font-size: 17px;
+}
+.carousel-inner img {
+    height:729.6px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+.container-fluid{
+    display:flex;
+    margin-left:410px;
+}
+.head{
+    width:100%;
+    height: 729.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head h1 {
+    margin-top: 200px;
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+}
+.head span {
+    background-color: #FFB606;
+}
+
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100px) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.head {
+    animation: popIn 0.5s ease-out; 
+}
+
+.title {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.title h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.courses {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.content{
+    padding: 17px;
+}
+.colored-line1 {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:100px;
+    padding: 25px;
+}
+.colored-line {
+    background-color: #FFB606;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 55px;
+    height: 4px;
+}
+.authorandprice {
+    border:black;
+}
+.text-content {
+    margin: 55px;
+}
+.card {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #F8F9FB;
+}
+.card a {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1a1a1a;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.bot-text{
+    font-size: 14px;
+    font-weight: 500;
+    color:#A5A5A5;
+    margin-top: 0px;
+}
+.bottominfo {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 410px;
+}
+.authorandprice{
+    height:67px;
+    width: 100%;
+    background-color: #EAEBEC;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.price{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width:67px;
+    height: 67px;
+    padding-right: 0px;
+    background-color: #FFB606;
+}
+.profilepic {
+    padding-right : 13px;
+}
+.profilepic img{
+    border-radius: 30px;
+    border: 0.5px solid black;
+    object-fit: cover;
+}
+.content-bot{
+    font-weight: 500;
+}
+.content-bot span {
+    color: #A5A5A5;
+}
+
+.form{
+    background-image: url(course_2.jpg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:75px;
+}
+.discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFB606;
+    padding: 156px 0px 161px;
+}
+.discount h1 {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    line-height: 1.63;
+}
+.discount p {
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 32px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 0px;
+}
+.form-info {
+    width: 100%;
+}
+.mb-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-control {
+
+    width:457.8px;
+    height:42px;
+}
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search {
+    color: white;
+    font-weight:500;
+    border:none;
+    background-color: #FFB606;
+    width:457.8px;
+    height:42px;
+}
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.register-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    color: white;
+    width:202px;
+    height: 48px;
+}
+
+footer{
+    margin-top:15px;
+}
+.foot-panel1{
+    background-color:#37475a;
+    color:white;
+    height:49px;
+    font-size:0.85rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.foot-panel2{
+    background-color:#232f3e;
+    color:white;
+    height:290px;
+    display:flex;
+    justify-content:space-evenly;
+}
+ul{
+    margin-top:20px;
+}
+ul a{
+    display:block;
+    font-size:0.85rem;
+    margin-top:10px;
+    color:#DDDDDD;
+}
+.par{
+    font-weight:700;
+}
+.foot-panel3{
+    background-color:#232f3e;
+    border-top:0.5px solid white;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.foot-panel4{
+    background-color:#131A22;
+    color:white;
+    height:100px;
+    font-size:0.7rem;
+    text-align:center;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+.pages{
+    padding-top:25px;
+}
+.copyright{
+    padding-top:5px;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh; /* Full height */
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 50vh; 
+    }
+
+    .carousel-caption .head h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-item img {
+        height: 40vh; 
+    }
+
+    .carousel-caption .head h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .head h1 {
+        font-size: 36px;
+        margin-top: 100px;
+    }
+    .carousel-inner img {
+        height: 400px;
+    }
+    .content {
+        margin: 20px;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .search {
+        width: 100%;
+    }
+    .register-button button {
+        width: 100%;
+    }
+    .discount h1, .discount p {
+        text-align: center;
+    }
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
